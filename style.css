@@ -1,0 +1,69 @@
+section h1 span{
+    font-size: 30px;
+    background: rgba(255, 165, 0,.2);
+    color: orange;
+    border-radius: 10px;
+    padding: 1px 6px;
+}
+
+.inputBox {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 320px;
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.credit{
+    border-top: 0.1rem solid rgba(255,255,255,.2)
+}
+
+footer .box-container .box h3 {
+    font-size: 20px;
+    padding: 5px 0
+}
+
+footer .box-container .box a {
+    display: block;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+footer .box-container .box p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+footer{
+    background-color: #333;
+    padding: 20px 5%;
+}
+
+div.cards{
+    text-align: center;
+}
+
+div.cards:hover{
+    box-shadow: 2px 2px 2px gray ;
+}
+
+div.cards i{
+    font-size: 80px;
+    color: lightsalmon;
+}
